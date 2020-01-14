@@ -36,7 +36,7 @@ The code below can be pasted into the console on gap.com or any subdomain in ord
 
 function retrieveSubtotal() {
   let orderSubtotalVar = localStorage.getItem('orderSubtotal');
-  console.log(orderSubtotalVar);
+  console.log('Order Subtotal:', orderSubtotalVar);
 };
 
 retrieveSubtotal();
