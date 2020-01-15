@@ -6,7 +6,7 @@ where it can be accessed in the second part of this solution
 
 let addToBagBtn = document.querySelector("#addToBag");
 
-addToBagBtn.addEventListener('click', () => {
+addToBagBtn.addEventListener('click', function() {
   console.log('add to cart button has been clicked');
 
   function subtotalCheck() {
